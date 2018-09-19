@@ -8,6 +8,6 @@ def oxford_comma(array)
     elsif array.length > 2 
     first_part = array[0...-1].join(", ")
     last_part = array[-1].to_s
-    "#{first_part} and #{last_part}"
+    "#{first_part}, and #{last_part}"
   end 
 end
