@@ -2,6 +2,6 @@ def oxford_comma(array)
   if array.length == 1
     array.join
     elsif array.length == 2 
-    first_part = array[0].join
+    array[0].join
   end 
 end
